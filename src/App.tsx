@@ -136,7 +136,7 @@ function AppShell() {
       )}
 
       <footer className="app__footer">
-        ANG BUHAY AY WEATHER WEATHER LANGS! Data courtesy of{" "}
+        ANG BUHAY AY WEATHER WEATHER LANGS! 
         <a href="https://openweathermap.org" target="_blank" rel="noreferrer">
           OpenWeather
         </a>

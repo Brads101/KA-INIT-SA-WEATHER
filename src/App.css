@@ -2,14 +2,13 @@
 
 :root {
   --sky: linear-gradient(160deg, #4facfe 0%, #8fd3ff 55%, #ffe9a8 100%);
-  --text: #eef2f8;
-  --text-dim: #9ca8bb;
-  --glass: rgba(5, 8, 16, 0.42);
-  --glass-strong: rgba(5, 8, 16, 0.78);
-  --glass-border: rgba(164, 181, 211, 0.15);
-  --sky-overlay: linear-gradient(160deg, rgba(3, 6, 14, 0.58), rgba(3, 6, 14, 0.72));
+  --text: #f5f7fb;
+  --text-dim: #b9c1d1;
+  --glass: rgba(255, 255, 255, 0.09);
+  --glass-strong: rgba(18, 22, 32, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.16);
   --radius: 20px;
-  --shadow-ambient: 0 24px 48px -24px rgba(0, 0, 0, 0.7);
+  --shadow-ambient: 0 24px 48px -24px rgba(0, 0, 0, 0.45);
   color-scheme: dark;
 }
 
@@ -19,7 +18,6 @@
   --glass: rgba(255, 255, 255, 0.5);
   --glass-strong: rgba(255, 255, 255, 0.78);
   --glass-border: rgba(15, 23, 42, 0.12);
-  --sky-overlay: linear-gradient(160deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04));
   --shadow-ambient: 0 24px 48px -28px rgba(20, 30, 60, 0.3);
   color-scheme: light;
 }
@@ -66,7 +64,7 @@ a {
 .app {
   position: relative;
   min-height: 100vh;
-  background: var(--sky-overlay), var(--sky);
+  background: var(--sky);
   transition: background 1.1s ease;
   color: var(--text);
   overflow-x: hidden;
@@ -702,10 +700,6 @@ a {
 
   .hero {
     padding: 1.5rem;
-  }
-
-  .app__brand h1 {
-    font-size: 1.15rem;
   }
 
   .modal__grid {
