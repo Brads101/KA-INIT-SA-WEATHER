@@ -136,11 +136,11 @@ function AppShell() {
       )}
 
       <footer className="app__footer">
-        Data courtesy of{" "}
+        ANG BUHAY AY WEATHER WEATHER LANGS! Data courtesy of{" "}
         <a href="https://openweathermap.org" target="_blank" rel="noreferrer">
           OpenWeather
         </a>
-        . Built with Vite, React &amp; TypeScript.
+        .
       </footer>
     </div>
   );
