@@ -11,7 +11,7 @@ interface ThemeContextValue {
 const ThemeContext = createContext<ThemeContextValue | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useLocalStorage<Theme>("wx-theme", "dark");
+  const [theme, setTheme] = useLocalStorage<Theme>("wx-theme-v2", "dark");
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
